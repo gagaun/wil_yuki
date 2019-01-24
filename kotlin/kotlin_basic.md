@@ -42,7 +42,8 @@ value?.let {
 }
 ```
 * let 구문 다음에 ?: 연산자를 사용하여 else 처리를 할 수 있는데, statement 가 아닌 block 이 와야 하는 경우 run 키워드를 함께 사용할 수 있다.
-* ```
+
+```
 ?: run {
   ... // else
 }
